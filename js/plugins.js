@@ -10,5 +10,8 @@ var $plugins =
 {"name":"TemplateEvent","status":true,"description":"テンプレートイベントプラグイン","parameters":{"TemplateMapId":"1","KeepEventId":"false","OverrideTarget":"{\"Image\":\"true\",\"Direction\":\"false\",\"Move\":\"false\",\"Priority\":\"false\",\"Trigger\":\"false\",\"Option\":\"false\"}","AutoOverride":"false","IntegrateNote":"0"}},
 {"name":"KINO_key","status":true,"description":"キーコード追加用プラグイン","parameters":{}},
 {"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"最初のセルに戻る":"true"}},
-{"name":"SimpleMenuLayout","status":true,"description":"シンプルなメニュー画面を実装します。","parameters":{"----基本的な設定----":"","メニュー幅":"240","メニュー列数":"1","メニューX座標":"{\"basis\":\"center\",\"correction\":\"0\"}","メニューY座標":"{\"basis\":\"center\",\"correction\":\"0\"}"}}
+{"name":"SimpleMenuLayout","status":true,"description":"シンプルなメニュー画面を実装します。","parameters":{"----基本的な設定----":"","メニュー幅":"240","メニュー列数":"1","メニューX座標":"{\"basis\":\"center\",\"correction\":\"0\"}","メニューY座標":"{\"basis\":\"center\",\"correction\":\"0\"}"}},
+{"name":"RecollectionTitle","status":true,"description":"타이틀에 회상 방 메뉴 추가","parameters":{"Command Name":"회상 방","Map ID":"28","X":"3","Y":"9"}},
+{"name":"iOSAudioFix","status":true,"description":"아이폰 사파리 사운드 수정","parameters":{}},
+{"name":"AudioDebug","status":true,"description":"?debug 주소로 열면 사운드 진단 화면 표시","parameters":{}}
 ];
